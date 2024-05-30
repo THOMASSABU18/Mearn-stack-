@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+h1{
+    font-family: "Poetsen One", sans-serif;
+}
+body{
+    background-color:rgb(249, 240, 230);
+}
+nav{
+
+    display: flex;
+    background-color: rgba(139, 128, 128, 0.537);
+}
+header{
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    background-color: transparent;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 500px;
+    margin-left: 500px;
+    
+}
+
+ul li{
+    margin: 10px;
+    list-style: none;
+
+}
+/* to avoid underline call "a" tag  */
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    text-shadow: 3px 4px 5px black;
+    text-decoration: underline;
+    
+}
+#icon{
+    border-radius: 50px 50px;
+    margin-left: 10px;
+}
+i{
+    color: rgb(253, 253, 253);
+}
+section h1{
+    color: rgb(107, 66, 162);
+    top: 30%;
+    left: 40%;
+    position: absolute;
+    
+   
+    
+    
+     
+}
+#text{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+
+}
+section{
+    height: 500px;
+}
+.row{
+    display: flex;
+}
+#thom{
+    margin: 10px;
+    
+   
+}
+p{
+    margin-left: 100px;
+    
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+}
+#projects{
+    margin-top: 0%;
+    padding: 0%;
+}
+.col img{
+    transition: width 2s, height 2s, transform 2s;
+
+}
+.col img:hover{
+    
+    width: 500px;
+   transform: rotate(360deg);
+}
+.row3{
+    display: flex;
+    text-align: justify;
+}
+.col3 p {
+    text-align: justify;
+}
+
+.col3{
+    background: linear-gradient(to top, blUE
+    59%, WHITE
+    50%);
+    margin: 10px;
+    padding: 20px;
+    border: 1px black;
+
+}
+.col img{
+    align-items: center;
+}
